@@ -1,0 +1,14 @@
+/Users/cheryllewman/Projects/test4/test4/bin/Debug/netcoreapp2.1/test4.deps.json
+/Users/cheryllewman/Projects/test4/test4/bin/Debug/netcoreapp2.1/test4.runtimeconfig.json
+/Users/cheryllewman/Projects/test4/test4/bin/Debug/netcoreapp2.1/test4.runtimeconfig.dev.json
+/Users/cheryllewman/Projects/test4/test4/bin/Debug/netcoreapp2.1/test4.dll
+/Users/cheryllewman/Projects/test4/test4/bin/Debug/netcoreapp2.1/test4.pdb
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.csprojAssemblyReference.cache
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.csproj.CoreCompileInputs.cache
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.RazorAssemblyInfo.cache
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.RazorAssemblyInfo.cs
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.AssemblyInfoInputs.cache
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.AssemblyInfo.cs
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.RazorTargetAssemblyInfo.cache
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.dll
+/Users/cheryllewman/Projects/test4/test4/obj/Debug/netcoreapp2.1/test4.pdb
