@@ -13,3 +13,60 @@ class Program
 }
 
 --------------------------------------------
+
+//random numbers between 1 and 10
+using System;
+
+class Program
+{
+    
+    static void Main()
+    {
+      var random = new Random();
+      for (var i =0; i <10; i++)
+        Console.WriteLine(random.Next(1, 10));
+    }
+}
+-----------------------------------------------
+using System;
+
+class Program
+{
+    
+    static void Main()
+    {
+        //to cast this to random characters, say for password generation, you use the ascii codes to 
+        //put numbers in place, then change it to a character. check out the ascii codes for the nums
+        //this does lowercase
+//      var random = new Random();
+//      for (var i =0; i <10; i++)
+//      {
+//        Console.Write((char)random.Next(97, 122));
+//        Console.WriteLine();
+//      }
+      
+      
+      
+//        //another way to display the above, but a little more clear that you start with the number for a and then add up to 26 letters (nums) to it:
+//        var random = new Random();
+//        for (var i =0; i <10; i++)
+//        {
+//          Console.Write((char)('a' + random.Next(0, 26)));
+//        }
+//        Console.WriteLine();
+      
+      
+      
+        //Same as before, but using an array
+        var random = new Random();
+        const int passwordLength = 10;
+        var buffer = new char[passwordLength];
+        for (var i = 0; i < passwordLength; i++)
+        {
+            buffer[i] = (char)('a' + random.Next(0, 26));
+        }
+        var password = new string(buffer);
+        Console.WriteLine(password);
+        
+    }
+}
