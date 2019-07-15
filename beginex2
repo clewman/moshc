@@ -1,0 +1,25 @@
+// exercise 2 from the class. display highest number
+
+using System;
+
+class Program
+{
+    
+    static void Main()
+    {
+      Console.Write("Enter a number: ");
+      var number1 = Convert.ToInt32(Console.ReadLine());
+      
+      Console.Write("Enter a second number: ");
+      var number2 = Convert.ToInt32(Console.ReadLine());
+      
+      if (number1 > number2)
+      {
+        Console.WriteLine("Max is " + number1);
+      }
+      else
+      {
+        Console.WriteLine("Max is " + number2);
+      }
+    }
+}
