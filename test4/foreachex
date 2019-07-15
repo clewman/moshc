@@ -1,0 +1,30 @@
+using System;
+
+class Program
+{
+    
+    static void Main()
+    {
+//      var name = "John Smith";
+//      
+//      //example of for loop
+//      for (var i = 0; i < name.Length; i++)
+//      {
+//        Console.WriteLine(name[i]);
+//      }
+//      
+//      //example of foreach loop
+//      foreach (var character in name)
+//      {
+//        Console.WriteLine(character);
+//      }
+        
+      //example of foreach over an array
+        var numbers = new int[] {1, 2, 3, 4};
+      
+        foreach (var number in numbers)
+        {
+          Console.WriteLine(number);
+        }
+    }
+}
