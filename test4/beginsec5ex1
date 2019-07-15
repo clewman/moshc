@@ -1,0 +1,22 @@
+//Write a program to count how many numbers between 1 and 100 are divisible by 3 with no remainder. Display the count on the console.
+
+using System;
+
+class Program
+{
+    
+    static void Main()
+    {  
+      var i = 0;
+      var v = 0;
+      while (i < 100)
+      {
+        if (i % 3 == 0)
+          
+          Console.WriteLine(i);
+          v++;
+        i++;
+      }
+      Console.WriteLine(v);
+    }
+}
