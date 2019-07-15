@@ -1,0 +1,15 @@
+//this creates 10 random numbers of any size
+using System;
+
+class Program
+{
+    
+    static void Main()
+    {
+      var random = new Random();
+      for (var i =0; i <10; i++)
+        Console.WriteLine(random.Next());
+    }
+}
+
+--------------------------------------------
